@@ -1,3 +1,7 @@
+<script>
+    import AddTodoComponent from '../lib/components/todo/AddTodoSection.svelte'
+</script>
+
 <div class="min-h-screen bg-olive-one p-0 selection:bg-green-two md:py-24 md:px-8">
     <main
         class="mx-auto min-h-screen max-w-none rounded-none bg-cream-four px-5 py-10 
@@ -5,6 +9,8 @@
         md:outline-offset-8 md:outline-cream-four"
     >
         <h1 class="text-2xl font-bold text-gray-three">Dashboard 看板</h1>
-        <div class="mt-10" />
+        <div class="mt-10" >
+            <AddTodoComponent></AddTodoComponent>
+        </div>
     </main>
 </div>
