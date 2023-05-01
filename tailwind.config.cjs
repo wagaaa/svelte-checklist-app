@@ -43,7 +43,7 @@ export default {
         },
         extend: {
             fontFamily: {
-                sans: ["ZCOOL+KuaiLe", ...defaultTheme.fontFamily.sans],
+                sans: ["Noto Sans SC", ...defaultTheme.fontFamily.sans],
             },
         },
     },
