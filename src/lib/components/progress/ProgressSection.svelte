@@ -2,7 +2,7 @@
     import ProgressBar from "./ProgressBar.svelte";
     import { todos } from "../../store/TodoStore";
 
-    export let completeProgress = 0;
+    export let completePercentage = 0;
     export let progressPercentage = 0;
 
     $: totalCount = $todos.length;
